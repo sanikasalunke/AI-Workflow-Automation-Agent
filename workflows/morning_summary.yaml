@@ -1,0 +1,18 @@
+name: Morning Summary
+description: >
+  Read a log, summarize a daily report PDF, and email the summary.
+steps:
+  - tool: read_file
+    input: "logs/yesterday.txt"
+
+  - tool: summarize_pdf
+    input: "reports/yesterday.pdf"
+
+  - tool: send_email
+    input:
+      to: "your-email@example.com"
+      from: "your-email@example.com"
+      subject: "Daily summary"
+      body: "Please find the daily summary attached."
+      smtp_user: "your-smtp-user"
+      smtp_pass: "your-smtp-pass"
