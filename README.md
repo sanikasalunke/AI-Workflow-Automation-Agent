@@ -61,7 +61,8 @@ streamlit run ui/app.py
 
 
 
-Quickstart (Google Colab)
+### **1. Quickstart (Google Colab)**
+
 1. Upload or clone the repo
 !git clone <this-repo>
 %cd ai-workflow-automation-agent
