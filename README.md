@@ -61,7 +61,7 @@ streamlit run ui/app.py
 
 
 
-### **1. Quickstart (Google Colab)**
+# Quickstart (Google Colab)
 
 1. Upload or clone the repo
 !git clone <this-repo>
